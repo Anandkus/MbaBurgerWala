@@ -1,0 +1,76 @@
+@import "color";
+
+.tableClass {
+    background-color: $pink;
+    width: 100%;
+    height: 100vh;
+  
+    main {
+      max-width: 900px;
+      background-color: white;
+      margin: auto;
+      height: 100%;
+      padding: 2rem;
+      overflow-x: auto;
+  
+      > table {
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+   
+        tr {
+          background-color: whitesmoke;
+  
+          &:hover{
+        background-color: $pink;
+          }
+          &:last-child {
+            td:first-child {
+ border-bottom-left-radius: 10px;
+            }
+            td:last-child {
+     border-bottom-right-radius: 10px;
+            }
+          }
+        }
+  
+        td,
+        th {
+          padding: 1rem;
+        }
+  
+        th {
+          background-color: $dark;
+          color: white;
+          text-transform: capitalize;
+          &:first-child {
+        border-top-left-radius: 10px;
+          }
+          &:last-child {
+            border-top-right-radius: 10px;
+          }
+        }
+  
+        td {
+          color: $lightdark;
+  
+          > img {
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+          }
+  
+          > a {
+            color: $red;
+          }
+          > button {
+            border: none;
+            cursor: pointer;
+            margin: 0.25rem;
+            color: $red;
+          }
+        }
+      }
+    }
+  }
+  
