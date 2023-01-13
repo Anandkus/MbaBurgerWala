@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/MbaBurgerWala/static/css/main.efd8ab13.css",
+    "main.js": "/MbaBurgerWala/static/js/main.0906bfb0.js",
+    "static/media/burger3.png": "/MbaBurgerWala/static/media/burger3.11eccfcb1a45834ac9d7.png",
+    "static/media/burger2.png": "/MbaBurgerWala/static/media/burger2.3a02b94cd44d825ebb94.png",
+    "static/media/pic.jpg": "/MbaBurgerWala/static/media/pic.47410641c6def76eae95.jpg",
+    "static/media/bg.png": "/MbaBurgerWala/static/media/bg.e25df216162c9b2fc988.png",
+    "static/media/burger1.png": "/MbaBurgerWala/static/media/burger1.6cbf3dc63aff1ced8e98.png",
+    "static/media/bg.svg": "/MbaBurgerWala/static/media/bg.e53655d9837b2c7792a3.svg",
+    "index.html": "/MbaBurgerWala/index.html",
+    "main.efd8ab13.css.map": "/MbaBurgerWala/static/css/main.efd8ab13.css.map",
+    "main.0906bfb0.js.map": "/MbaBurgerWala/static/js/main.0906bfb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efd8ab13.css",
+    "static/js/main.0906bfb0.js"
+  ]
+}
