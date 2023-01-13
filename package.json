@@ -1,5 +1,6 @@
 {
   "name": "client",
+  "homepage": "https://Anandkus.github.io/MbaBurgerWala",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +12,7 @@
     "chart.js": "^4.1.2",
     "country-state-city": "^3.1.2",
     "framer-motion": "^8.1.9",
+    "gh-pages": "^4.0.0",
     "protected-route-react": "^1.0.1",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
@@ -25,6 +27,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

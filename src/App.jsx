@@ -39,7 +39,7 @@ const App = () => {
     <BrowserRouter>
     <Header   isAuthenticated={true}/>
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/MbaBurgerWala" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/cart" element={<Cart />} />
