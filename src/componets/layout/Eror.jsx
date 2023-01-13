@@ -16,7 +16,7 @@ const Eror = () => {
     <div className='col-md-8'>
         
 <h2 className='text-center mt-3'>We are Sorry , page Not Found!</h2>
-<NavLink to="/" ><button className="btn btn-light">Go back</button></NavLink>
+<NavLink to="/MbaBurgerWala/" ><button className="btn btn-light m-5">Go back</button></NavLink>
     </div>
 </div>
     </div>

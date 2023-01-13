@@ -53,7 +53,7 @@ const Cart = () => {
 
 
 <article>
-          <div>
+          <div className=''>
             <h4>Sub Total</h4>
             <p>₹{2000}</p>
           </div>
@@ -69,7 +69,7 @@ const Cart = () => {
             <h4>Total</h4>
             <p>₹{2000 + 2000 * 0.18 + 200}</p>
           </div>
-          <Link to="/shipping">Checkout</Link>
+          <Link to="/shipping" className=''>Checkout</Link>
         </article>
 
       </main>

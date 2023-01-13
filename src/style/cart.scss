@@ -3,7 +3,7 @@
 .cart {
     background-color: $pink;
     width: 100%;
-    height: 100vh;
+    height: 130vh;
   
   
     > main {
@@ -15,12 +15,14 @@
   
       > article {
         padding: 2rem;
+      
         > div {
           display: flex;
           justify-content: space-between;
           margin: 1rem 0;
      align-items: center;
 border-bottom: 1px solid gray;
+
         }
   
         > a {

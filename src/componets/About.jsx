@@ -39,7 +39,7 @@ const About = () => {
             menu
           </p>
 
-          <Link to="/">
+          <Link to="/MbaBurgerWala/">
  <RiFindReplaceLine/>
           </Link>  
         </article>
